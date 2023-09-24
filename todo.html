@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/todo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">TodoList</h1>
+        <div class="todo">
+            <form class="todo_form">
+                <input class="todo_input" type="text"/>
+                <button class="todo_button">+</button>
+                <div class="select">
+                    <select name="todos" class="filter-todo">
+                        <option value="all">All</option>
+                        <option value="completed">completed</option>
+                        <option value="uncompleted">uncompleted</option>
+                    </select>
+                </div>
+            </form>
+            <div class="todo_container">
+                <ul class="todo_list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="/todo.js"></script>
+</body>
+</html>

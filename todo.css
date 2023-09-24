@@ -1,0 +1,124 @@
+body{
+    background-color: #614BC3;
+    font-family: ubuntu;
+    color: white;
+}
+.container{
+    margin: 0px auto 0px;
+    width: 600px;
+    height: 600px;
+    background-color: #614BC3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    margin-top: 50px;
+    font-family: ubuntu;
+    color: white;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+    border-radius: 10px;
+    height: 500px;
+
+}
+.todo_form{
+ display: flex;
+
+ 
+}
+.todo_input{
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: -50px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    background-color: #614bc3;
+    color: white;
+    padding-left: 20px;
+    font-size: 1em;
+}
+.todo_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    background-color: #614bc3;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.select{
+    
+}
+.filter-todo{
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    background-color: #614bc3;
+    color: white;
+    padding-left: 10px;
+    margin: 0px 20px;
+    height: 50px;
+    cursor: pointer;
+}
+.todo_container{
+    margin-top: 50px;
+}
+.todo_list{
+    list-style: none;
+    padding: 0;
+}
+.todoDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+.todo-item {
+    width: 100%;
+        padding-left: 20px;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-right: 10px;
+        overflow: hidden;
+        white-space: pre-line;
+        text-overflow: ellipsis;
+        min-width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+
+    }
+
+.trash-btn{
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #e77878;
+    color: #e77878;
+    background-color: #614bc3;
+    
+
+}
+.complete-btn{
+
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #4bc35b;
+    background-color: #614bc3;
+    color: #4bc35b;
+    margin-right: 5px;  
+}
+.completed{
+    opacity: 50%;
+
+}
